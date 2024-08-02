@@ -1,2 +1,2 @@
-# bens_notebooks
-Version control for my notebooks
+# Bens Notebooks
+I don't wanna lose my notebooks so here we are.
