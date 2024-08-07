@@ -16,7 +16,7 @@ def process_comma_separated_values(ctx, param, value):
 @click.option(
     "--run_ids_file",
     type=Path,
-    default=Path(__file__).parents[0] / "1000_random_run_ids.csv",
+    default=Path(__file__).parents[1] / "data" / "1000_random_run_ids.csv",
     help="A .csv file containing run ids that we can use to test data pipeline steps (one run id per row)",
 )
 @click.option(
